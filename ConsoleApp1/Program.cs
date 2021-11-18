@@ -10,8 +10,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World");
-       
+            int value = 0;
+            while (value < 25)
+            {
+                value++;
+                Console.WriteLine(value);           
+            }
+            Console.ReadLine();
         }
     }
 }
