@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
@@ -11,7 +7,8 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             int value = 0;
-            while (value < 25)
+            int limit = int.Parse(Console.ReadLine());
+            while (value < limit)
             {
                 value++;
                 Console.WriteLine(value);           
